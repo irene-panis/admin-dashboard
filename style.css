@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.header {
+  background-color: yellow;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.sidebar {
+  background-color: lightblue;
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.main-content {
+  background-color: slategray;
+  grid-column: 2;
+  grid-row: 2 / 3;
+}
