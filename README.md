@@ -12,5 +12,5 @@ For this project I utilized Grid, a tiny bit of Flexbox, and the usual HTML/CSS.
 This was genuinely a lot of fun to make and I can't get over how good it looks. I think I'd like to go back to this project someday and incorporate a dark mode, as
 well as make it functional (though I've got a long way to go before I can do that)!
 
-Known issues:
+Known issues: <br>
 -Half star symbol not showing up on Windows
