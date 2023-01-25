@@ -225,7 +225,6 @@ label[for="usersearch"] {
 }
 
 .ann-cards, .tren-cards {
-  padding: 0;
   margin: 0 20px;
   background-color: white;
   border-radius: 10px;
@@ -270,6 +269,47 @@ hr {
 
 .post-title {
   font-weight: bold;
+}
+
+.tren {
+  display: grid;
+  grid-template-columns: 1fr 2fr 6fr;
+  grid-template-rows: 1fr;
+  margin: 15px 0;
+}
+
+.tren-rank {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(66, 66, 66);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tren img {
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+  grid-column: 2;
+}
+
+.album-info {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.tren-album {
+  font-family: Sunflower;
+  font-size: 1.5em;
+}
+
+.half-star {
+  font-size: .9em;
 }
 
 
